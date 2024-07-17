@@ -29,7 +29,7 @@ const Blog = () => {
             </p>
             <div className="author-info">
               <span>
-                By Erika Owen and Shayla Martin • Jun 7, 2024 • 10 minutes read
+                By Tom brady and Shayla Martin • Jun 7, 2024 • 10 minutes read
               </span>
             </div>
           </div>
