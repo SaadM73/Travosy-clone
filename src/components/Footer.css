@@ -1,0 +1,129 @@
+.footer {
+  background: #161C28;
+  color: #ddd;
+  padding: 50px 11%;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.footer-section h1, .footer-section h2 {
+  color: #fff;
+}
+
+.footer-section p {
+  color: #c5c5c5;
+  font-size: 16px;
+}
+
+.logo-text span {
+  color: #ff6f61;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6f61;
+}
+
+.footer-section.office p, .footer-section.office a {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #bcbcbc;
+}
+
+.footer-section.office p svg, .footer-section.office a svg {
+  margin-right: 10px;
+}
+
+.footer-section.company ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.company ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.company ul li a {
+  color: #bebebe;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section.company ul li a:hover {
+  color: #fff;
+}
+
+.footer-section.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.footer-section.newsletter button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff3b30;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.footer-section.newsletter button:hover {
+  background: #ff3b30;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background: #161C28;
+  color: #bbb;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.FooterLogo{
+margin-top: 20px;
+
+}

@@ -1,0 +1,145 @@
+.testimonials {
+  text-align: center;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+}
+
+.testimonials-title {
+  color: #161C2D;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.testimonials-subtitle {
+  font-size: 1em;
+  color: #a49898;
+  margin-bottom: 7%;
+  padding: 0 25%;
+}
+
+.swiper-pagination {
+  bottom: -30px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ff6f61 !important;
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 450px; /* Adjusted for the design */
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px; /* Add some space at the bottom for the arrow */
+}
+
+
+.testimonial-card::after {
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Position the arrow */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff; /* Match the background color of the card */
+}
+
+.testimonial-text {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 20px;
+}
+
+
+.testimonial-text::before {
+  content: '\201C'; /* Left double quote */
+  font-size: 8em;
+  color: #ff6f61;
+  position: absolute;
+  top: -70px;
+  left: 45%;
+}
+
+.testimonial-rating {
+  font-size: 1.5em;
+  color: #ff6f61;
+  margin-bottom: 15px;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top:-7%;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-size: 1.2em;
+  color: #161C2D;
+}
+
+.author-position {
+  font-size: 0.9em;
+  margin-top: -10px;
+  color: #a49898;
+}
+
+/* .custom-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-prev,
+.custom-next {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: #ff6f61;
+  transform: scale(1.1);
+}
+
+.custom-prev i,
+.custom-next i {
+  font-size: 16px;
+  color: #555;
+}
+
+.custom-prev:hover i,
+.custom-next:hover i {
+  color: white;
+} */

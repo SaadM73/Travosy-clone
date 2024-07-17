@@ -1,0 +1,78 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  overflow-y: auto;
+  padding-top: 60px; /* Adjust as needed */
+}
+
+.sidebar.visible {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.Sidebt {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.Sidebt:hover,
+.Sidebt:focus {
+  background: #f0f0f0;
+  outline: none;
+}
+
+.Sidebt-item {
+  position: relative;
+}
+
+.dropdown-arrow {
+  float: right;
+  margin-top: 5px;
+}
+
+.dropdown {
+  display: none;
+  padding-left: 20px;
+}
+
+.Sidebt-item.active .dropdown {
+  display: block;
+}
+
+.Sidebt-item .dropdown {
+  display: none;
+}
+
+.Sidebt-item .dropdown li {
+  padding-left: 20px;
+}
+
+.Sidebt-item .dropdown li a {
+  padding: 10px 0;
+  display: block;
+  color: #666;
+}
+
+.Sidebt-item .dropdown li a:hover {
+  color: #000;
+}

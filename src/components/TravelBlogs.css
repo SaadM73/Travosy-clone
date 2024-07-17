@@ -1,0 +1,87 @@
+.travel-blogs {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.travel-blogs h2 {
+  color: #161C2D;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-size: 1em;
+  color: #a49898;
+  margin-bottom: 30px;
+  padding: 0 30%;
+}
+
+.blogs-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 340px;
+  transition: transform 0.5s;
+  position: relative;
+}
+
+
+
+.blog-card:hover .blog-image {
+  transform: scale(1.1) rotate(2deg); /* Zoom in and rotate */
+}
+
+.blog-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.blog-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.blog-meta {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.blog-meta .read-time {
+  margin-right: 10px;
+}
+
+.blog-title {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.blog-description {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  font-size: 0.9em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

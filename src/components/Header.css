@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 40;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.navbar.scrolled {
+  background-color: #fffffff1;
+  top: 0;
+}
+
+.logoimg {
+  margin-left: 70%;
+  max-height: 40px;
+}
+
+.navbtbar {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbt-list {
+  display: flex;
+  list-style: none;
+  padding-left: 40%;
+  margin: 0;
+}
+
+.navbt-item {
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbt {
+  color: rgb(154, 150, 150);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.navbar.scrolled .navbt {
+  color: #000000; /* Change this to your desired color when scrolled */
+    font-weight: 500;
+
+}
+.navbt:hover,
+.navbt:focus {
+  color: #ffffff;
+}
+
+.navbt:hover::after,
+.navbt:focus::after {
+  width: 100%;
+}
+
+.navbt svg {
+  vertical-align: middle; /* Aligns the SVG icon with the text */
+  margin-left: 5px; /* Adjusts the spacing between text and icon */
+}
+
+.profile-button {
+    margin-right: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-img {
+  border-radius: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 200%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  width: 200px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.navbt-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  padding: 10px 20px;
+}
+
+.dropdown li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+.dropdown li a:hover {
+  color: rgba(255, 99, 71, 0.8);
+  border-radius: 3px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: top 0.3s;
+  z-index: 2;
+}
+
+.top-nav span {
+  margin-right: 15px;
+}
+
+.top-nav-left, .top-nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav-left {
+  margin-left: 12%;
+  font-size: 0.9em;
+}
+
+.top-nav-right {
+    align-content: center;
+    justify-content: center;
+  margin-right: 15%;
+  font-size: 0.9em;
+}
+
+.top-nav-left span,
+.top-nav-right span {
+  display: inline-block;
+}
+
+.top-nav-right a {
+  color: #ffffff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.top-nav-right a:hover {
+  text-decoration: underline;
+}
+
+.fa-icon {
+  margin-right: 5px; /* Add some space between the icon and the text */
+  size: 0.5em;
+}
+
+.top-nav-right a:nth-child(1):hover svg {
+  color: rgb(204, 16, 69);
+  transition: 0.5s ease;
+}
+
+.top-nav-right a:nth-child(2):hover svg {
+  color: rgb(204, 16, 69);
+  transition: 0.5s ease;
+}
+
+.top-nav-right a:nth-child(3):hover svg {
+  color: rgb(204, 16, 69);
+  transition: 0.5s ease;
+}
+
+.top-nav-right a:nth-child(4):hover svg {
+  color: rgb(204, 16, 69);
+  transition: 0.5s ease;
+}
+
+.time-icon {
+  color: rgb(204, 16, 69);
+  margin-right: 5px; /* Adjusts the spacing between the icon and the text */
+  vertical-align: middle; /* Aligns the icon with the text */
+}
+
+.location-icon {
+  color: rgb(204, 16, 69);
+  margin-right: 5px; /* Adjusts the spacing between the icon and the text */
+  vertical-align: middle; /* Aligns the icon with the text */
+}
+
+.mail-icon {
+  color: rgb(204, 16, 69);
+  margin-right: 5px; /* Adjusts the spacing between the icon and the text */
+  vertical-align: middle; /* Aligns the icon with the text */
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    display: none;
+  }
+}

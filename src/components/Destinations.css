@@ -1,0 +1,102 @@
+.SliderContainer {
+  width: 70%; /* Set width to 100% for full-width slider */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.swiper-container {
+  overflow: hidden; /* Prevent horizontal overflow */
+}
+
+.slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 290px;
+  overflow: hidden;
+  border-radius: 10px; /* Adjust border radius as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.2s;
+}
+.slideTitle {
+  text-decoration: none;
+}
+
+.slideTitle:before {
+  text-decoration: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%; /* Adjust image height based on content */
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.slide-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%; /* Adjust overlay height */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+  color: white;
+  text-align: left;
+  padding: 10px; /* Adjust padding */
+  transition: opacity 0.2s;
+  opacity: 1; /* Hide overlay initially */
+}
+
+.swiper-pagination {
+  display: none; /* Or */
+  opacity: 0; /* Hide using opacity */
+}
+
+.slide:hover .slide-overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+
+
+.custom-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.swiper-button-prev.custom-prev,
+.swiper-button-next.custom-next {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: all;
+  transition: transform 0.2s, box-shadow 0.2s;
+  z-index: 3;
+}
+
+.swiper-button-prev.custom-prev:hover,
+.swiper-button-next.custom-next:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+
+}
+
+.swiper-button-prev.custom-prev i,
+.swiper-button-next.custom-next i {
+  font-size: 16px;
+  color: #555; /* Icon color */
+    z-index: 3;
+
+}
