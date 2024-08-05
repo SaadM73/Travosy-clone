@@ -33,22 +33,14 @@ const FormComponent = () => {
 
   const navigate = useNavigate();
 
-  const getData = async () => {
-    try {
-      const result = await PublicServices.searchData(search);
-      if (result.responseCode == 200) {
-        console.log(result.data);
-        navigate("/listing", {
-          state: {
-            hotels: result.data.hotels,
-            attractions: result.data.attractions,
-            restaurants: result.data.restaurants
-          }
-        })
+  const handleNavigate = () => {
+    navigate("/listing", {
+      state: {
+        navigateFrom: "search",
+        search: search,
+        selectedType: selectedType == "" ? "all" : selectedType
       }
-    } catch (err) {
-      console.log(err)
-    }
+    })
   }
 
   return (
@@ -144,7 +136,7 @@ const FormComponent = () => {
               startAdornment: <SearchIcon />,
               endAdornment: (
                 <Button
-                  onClick={() => getData()}
+                  onClick={() => handleNavigate()}
                   sx={{
                     background: "#e30037",
                     color: "#ffffff",
