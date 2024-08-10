@@ -1,6 +1,6 @@
-.Tourpackagecontainer {
-  margin: 0 auto;
-  padding: 0 1rem;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .main-banner {
@@ -27,27 +27,19 @@
   padding: 2rem 0;
 }
 
-.tour-details,
-.booking-section {
+.tour-details {
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .tour-details p {
   color: #555555;
   font-size: 14px;
-}
-
-.tour-details {
-  flex: 2;
-  margin-right: 1rem;
-}
-
-.booking-section {
-  flex: 1;
-  max-width: 300px;
 }
 
 .booking-section .price {
@@ -77,9 +69,9 @@
 
 .tour-details ul li {
   background-color: #ecf0f1;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  border-radius: 3px;
+  padding: 8px 16px;
+  font-size: 12px;
+  border-radius: 16px;
 }
 
 .itinerary {
@@ -117,38 +109,6 @@
   padding: 20px;
 }
 
-.left-section,
-.right-section {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-  flex: 1;
-  margin: 10px;
-}
-
-.left-section {
-  max-width: 65%;
-}
-
-.right-section {
-  max-width: 35%;
-
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.tour-details {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.tour-details h2 {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
 .details-table {
   width: 100%;
   border-collapse: collapse;
@@ -157,7 +117,6 @@
 .details-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .details-header {
@@ -186,25 +145,13 @@
 .details-value,
 .details-valueexclude ul li {
   font-size: 14px;
-  padding-left: 20px;
   position: relative;
 }
 
-.details-value ul li::before {
-  content: "✔";
-  color: blue;
-  position: absolute;
-  left: 0;
-}
-
-.details-valueexclude ul li::before {
-  content: "X";
-  color: rgb(255, 0, 0);
-  position: absolute;
-  left: 0;
-}
-
 .booking-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   text-align: center;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -260,21 +207,12 @@
 }
 
 .booking-section ul {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding: 0;
+  padding-left: 24px;
   text-align: left;
-}
-
-.booking-section ul li {
-  padding-left: 20px;
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.booking-section ul li i {
-  color: green;
-  position: absolute;
-  left: 0;
 }
 
 .contact-section {
@@ -290,6 +228,10 @@
 
 .contact-section p {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
 }
 
 .contact-section i {
@@ -298,4 +240,13 @@
 
 .slideshow {
   margin-top: 20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #e30037;
+}
+
+.swiper-scrollbar .swiper-scrollbar-drag {
+  background: #e30037;
 }

@@ -1,0 +1,2736 @@
+[
+  {
+    "id": "24991373",
+    "title": "Hyatt Aryana Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$14",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/63/15/a4/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/51/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/52/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/50/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=236713733&geo=24991373&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwlvcartqMYa56G0nh2YQha47HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvXHwNvUvsWoBuGEppnHOUL0zWOBMVQBWJ3C6ZfQ1wCO7yfFuLAPiPEEliQx7DnE6FA7imaExtZpPM_VUDMvTVvJLdBTNrVpIr6vRExtyUXWLgwTpUYXmDFx5V5wB3asPvr6JQ_Yj6hFnlzmMnDI-xRq&priceShown=13&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=11.4400&taxesRate=1.9500&feesRate=0&fees=1.9500&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_4c90c8aaca555579010a7dbeffd02958&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=c22c3c13-0422-4c13-add3-a7d9d961d879&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1c4b4f12d36daa2df0a8a3c26880fc74d&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=686f7a42504741a0b0595327437846aa&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$14",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "5064037",
+    "title": "1. Ramada by Wyndham Islamabad",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "564",
+      "rating": 4.5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$240",
+    "strikethroughPrice": "$252",
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 7 deals from $240",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 682,
+          "maxWidth": 1023,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/58/9b/19/lobby.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4096,
+          "maxWidth": 4096,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/96/a7/8d/ramada-islamabad-celebrating.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 686,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/af/46/66/guest-room-bath.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 686,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/af/46/64/health-club-fitness-center.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=122388109&geo=5064037&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=7&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=wYngE9EYk6ZZHYV7hOupZ0aZc6yDEvv7x4Bxp5gZ9v-jIuhPNCT7J-iGAY-O1WtFq8tucez8XQv0gjRhprRH_gLCN2uoXWOK1cIPqAw3Ya8Al0Yl1DZk9XprMlZUU2-K64ubGxWsxIsYByH11PNxUGZt-awz0SNK3uI1N-N5ko5fcBO8Qc78M_SnYBbWesUJ2ezYzsL_UQsjkTWVhv-2IY_oiYEwP1zHi2C2tD74-iZMPwhxXNur_nO5lL1uX_JEtYdtZpws9dOF08J2Bfz-uNg2QAMYK-T84MC4H3H0X3M&priceShown=240&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=198.4200&taxesRate=41.2700&feesRate=0&fees=41.2700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_581756c3fc3abca5bde827b4a05444d0&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=ee4436e0-9185-48d6-a034-bcb0c35a2706&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1f665511bf820a7a816784949300eda2c&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=6be1a6f261e94c028b3640afd4e611b8&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$240",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": {
+        "text": "$252"
+      },
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 7 deals from $240"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "5970427",
+    "title": "2. Islamabad Regalia Hotel",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "139",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$113",
+    "strikethroughPrice": "$128",
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $113",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1500,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1d/90/79/islamabad-regalia-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4000,
+          "maxWidth": 6000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1d/90/af/islamabad-regalia-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2160,
+          "maxWidth": 3526,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1d/90/b1/islamabad-regalia-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1886,
+          "maxWidth": 2332,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1d/90/90/islamabad-regalia-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=157674148&geo=5970427&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjVOr5vT7IGmpNq9os27n9VOx5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871wcYZDsLNEciaco-CiaRRTyUZhVlkLDAXOWsyLY1y-XvI15G2z-0tiTypmUG-u-2Ly9ap7S2g6l3KpT_glGyUM9TMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=112&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=92.9300&taxesRate=19.5200&feesRate=0&fees=19.5200&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_7d240fae67ce7eb4d7b7e88d46706e76&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=dd01fd2e-2fc1-4486-b0c9-6ae60c007b34&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=18ef118a6bbfa1c827039d8c5e249b1cb&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=bdddecee6eec423f83f6811792ad057c&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$113",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": {
+        "text": "$128"
+      },
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $113"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "21286369",
+    "title": "3. Roomy Signature Hotel, Islamabad",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "43",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$176",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 3 deals from $176",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1000,
+          "maxWidth": 1920,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d5/79/8c/roomy-signature.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3681,
+          "maxWidth": 4759,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d5/78/74/roomy-signature.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4000,
+          "maxWidth": 6000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d5/7a/cc/roomy-signature.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2832,
+          "maxWidth": 4240,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/d5/7c/fd/roomy-signature.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=246858617&geo=21286369&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=3&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjVdCoB-pFIxwDA_N_zPjcP-x5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871d0PejEBXi0J-6kmIBkjPdLYaSamK8rwHJ_PsHtEIPKbF1wP4fYhdlo1paD_SRKDly9ap7S2g6l3KpT_glGyUM9TMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=176&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=145.6100&taxesRate=30.2100&feesRate=0&fees=30.2100&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_3862b599871987c4b4fbfc9be835ffd&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=cc446503-b605-4d38-a53f-cbc6c90373cf&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=12b2e0742bbc4e56c7d15b737ff26f5b4&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=1a8dc3f724a046da854ae53cba1b38b0&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$176",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 3 deals from $176"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "23661858",
+    "title": "4. Best Western Premier Islamabad",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "43",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$220",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $182",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 682,
+          "maxWidth": 1023,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/03/f3/db/best-western-premier.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2069,
+          "maxWidth": 3104,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/25/b7/5e/best-western-premier.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1889,
+          "maxWidth": 2834,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/25/b7/3e/best-western-premier.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2064,
+          "maxWidth": 3096,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/25/b7/15/best-western-premier.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=222483308&geo=23661858&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=wYngE9EYk6ZZHYV7hOupZ0aZc6yDEvv7x4Bxp5gZ9v-jIuhPNCT7J-iGAY-O1WtFb_rLhBI0dj1UC8A5_PIeMgLCN2uoXWOK1cIPqAw3Ya8Al0Yl1DZk9XprMlZUU2-KYrqflrWgQ0FUl-5y2cL40Y1eH9Fc8YT80ncWEPT2ws-8yK70Ikb8eOonEqCgD88eHcTLoMQqTp3gqfcrqRmr_aOFMeKfsdDe8RfNzk5pSG1ViSctM-ZJjl1IAxb9J9lgsYT9lS8gft1K8adUV-3D0SeGDQInmYvNeVCsFrGb-Qk&priceShown=219&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=3800&rq=ML&rate=180.1500&taxesRate=39.2700&feesRate=0&fees=39.2700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_215a5d862291dcb4823affe5b2c6bfdb&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=c8350e33-aee5-4524-88ce-9e91ac8d66ee&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=168811d38500b1b230b73402ebb6e24f7&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=188ca1a43b7941bbbbd65fa675d703e2&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$220",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $182"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "20316698",
+    "title": "5. Avari Xpress Islamabad",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "17",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$100",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $85",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a2/f7/parking-and-entrance.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/5d/twin-bed-room.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/0f/business-suite.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/08/elevator-and-stairs-for.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=176379761&geo=20316698&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjxHSw4Mf2RyR2mS5-2oWSW4JWT0WpTKnbpNwR_MR03WBZLAUI2vU4ZxfbgaYh9wYxMFTTJyPIVuFT2MRtiXrlBtj9r0IAzjR5uRjZYc4u_fPhaoTRtwgZzoF5zm9Q25sjBhBYxN1h7--WyztQ0dQdCtTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=99&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1400&rq=P&rate=85.4300&taxesRate=13.6700&feesRate=0&fees=13.6700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_52dcc5ffc62a9784966c8b660b097448&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=8a48ded3-d4df-4dbb-896c-f3a552a2bdc8&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1596f95d6bb2dcfd9cc5c54d09e09f6b7&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=88514c6baa03458f9c514d43979461ce&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$100",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $85"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "10341193",
+    "title": "Legend Hotel Islamabad",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "9",
+      "rating": 3.5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$57",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3921,
+          "maxWidth": 5873,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/c2/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3997,
+          "maxWidth": 5987,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/be/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4001,
+          "maxWidth": 5387,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/ba/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 921,
+          "maxWidth": 691,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cd/01/88/img-20181220-203021-largejpg.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=195101729&geo=10341193&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwmcEqbxP_GTYkK8oWEFoUM77HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvWAeMSp1kU8KK1R16xi3a31l2cntmpJZ7jI2UF9oxmSXtqz2zRVFS12vS0t8ixnIV8K93XYwfAxXyQB0MWW1dnGCG9vVJ4p2kGFi9GnAJZZhaegIq8P240GvRfUbYx_RANALN9ee2WgTFtnAwWM2pO7&priceShown=56&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=46.6500&taxesRate=9.8000&feesRate=0&fees=9.8000&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_764efa378ed633d7aa538058e6b41ba4&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=4500a5ff-5022-41da-9e35-4c3e17c8feb1&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1b9027791aa76c2762c5734f0ec1385bf&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=7d676100a1ce4eb4a1f6e21200d971e7&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$57",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "6015303",
+    "title": "6. Envoy Continental Hotel",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "70",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": "10% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$88",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 3 deals from $88",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3860,
+          "maxWidth": 5782,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c1/37/d7/envoy-continental-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4002,
+          "maxWidth": 5995,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/d0/c2/4c/envoy-continental-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4002,
+          "maxWidth": 5995,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/d0/c4/f7/envoy-continental-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4003,
+          "maxWidth": 5996,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/d0/c3/1d/envoy-continental-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=61577368&geo=6015303&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=3&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjEC7V29T1bw-co-6kYau0dex5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA8717EiGsGiHiQGgi_NqbsKnvZYY7psqk6FRJVG6Un676J7F1wP4fYhdlo1paD_SRKDlhqf655ySq6Z_sY6nUdIwcWwF7AxWFeJqv10IFinKxmQ5GnUyKKM4zxCo839dIikGggCyQwtSmDEm6FPVJTwdvg&priceShown=87&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=72.1000&taxesRate=15.1400&feesRate=0&fees=15.1400&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_2c249d4322a4c1d72a6b6d9d47b47657&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=e996edf3-ca20-49ff-8969-ad30fdebb942&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=116729631b553b6b23a87e715e2caf2ec&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=f8ac1aeb20c74c3ba483b63d3fc03cd8&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$88",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 3 deals from $88"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "19330222",
+    "title": "7. Reina Boutique Hotel - G6/3",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "2",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": "11% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$33",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 3 deals from $33",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/2e/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/37/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/2c/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 850,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/21/3.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=248219503&geo=19330222&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=3&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJhCs7rZoPvTHcRbXotuoUUOx5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871PxXgR5uanSD8xN3Bg-AbTRmV5vBjV961Y-rON5UetEZORFmiIGqYSIyATBzBrGSSy9ap7S2g6l3KpT_glGyUM9TMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=32&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=ML&rate=27.4600&taxesRate=4.6700&feesRate=0&fees=4.6700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_68ea8990e54d022a26636b0d2e72b31&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=0503f561-ab6c-4272-8a74-247fe72066a7&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=12ea54aa223796beb1183f2b4e7430423&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=6120e896511f46f59b0fe42724a8299f&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$33",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 3 deals from $33"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "21373228",
+    "title": "8. Green Line Motel Islamabad",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$18",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 4 deals from $18",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 960,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a9/57/9f/photo1jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 858,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a9/57/a0/photo2jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 960,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a9/57/9e/photo0jpg.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=178492801&geo=21373228&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=4&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJ3jhtLl35rR3WlcNl0LZj2ux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871VSKYUkGKM_2GXvC-UPG80fzNpRhnbg50MU3tOzcUQdWpBRVQPmRY5vvYF5pNkPL_31HH6jQeCwcrqixwC-FqmWwF7AxWFeJqv10IFinKxmQ5GnUyKKM4zxCo839dIikGggCyQwtSmDEm6FPVJTwdvg&priceShown=17&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=14.5400&taxesRate=2.4700&feesRate=0&fees=2.4700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_1e2631dcf38163e223ee774a30c353bc&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b03ebc17-ddac-4409-973a-9718a8efb727&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1d5494b93167ce976771c738355b6f9ed&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=ab52b9a382764b7eb1d485f30a3b71cd&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$18",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 4 deals from $18"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "8075960",
+    "title": "9. Grace Guest House",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "46",
+      "rating": 4.5
+    },
+    "isSponsored": false,
+    "accentedLabel": "17% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$75",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 4 deals from $75",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1333,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/75/11/15/grace-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1204,
+          "maxWidth": 1806,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e3/eb/ea/grace-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1122,
+          "maxWidth": 2208,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/03/8f/d8/grace-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 750,
+          "maxWidth": 1000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/fd/35/a4/20200912-102002-largejpg.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=74393959&geo=8075960&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=4&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjAVjq_5RHgO-mwYqLE9r-yux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871Dd_UCQJL4029bnQ55_Qfxam46vAn6mdUfPhwuiIw9s0ORvnNN1Kn14dTihmpCq4C-Qk-pVbkwdOXV14AOBKXCtTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=75&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=64.0300&taxesRate=10.8800&feesRate=0&fees=10.8800&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_5b13b644e242c6001928086dbeb44cd2&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=c054b7f9-68a5-4f0d-9f7f-e9d538148236&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=11e4e1052cb9839e433530be602f61a78&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=3ab8143307294bbcba0fe3e86951fb01&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$75",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 4 deals from $75"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "19958489",
+    "title": "10. The City Lodge",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$23",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $23",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/29/2c/7a/ce/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2a/bf/bf/27/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2a/bf/bf/26/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2a/15/4b/7b/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=163555098&geo=19958489&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=IelG8tv1J_S9X8UTeCysjgBgZEE0Kt1gBpYrIhyHUeSdU3PM1s0Fa3zllTv3Aex-nVfPpFY6ybh7D_H_8FKcpYJWT0WpTKnbpNwR_MR03WBZLAUI2vU4ZxfbgaYh9wYx-8mn5ot5XOfc1wZYe63Eq-5Qlmfv2H6aCMLetPjwip_LNxvN5guALUfpOmHxM3om0E9qtU_Ce4e8gFPN_GXL3lYzqY2jjwlz0F3Uv4Mkx4pjZ8p6XscnHJ3Sysd2hLWNE2j-rFDZgQsMVKBGFyrAAw&priceShown=23&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=19.4200&taxesRate=3.3000&feesRate=0&fees=3.3000&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_116d9e925c38a6eaf244bf10fa4d6c01&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=3c1e4d90-1b05-4cb0-a330-c19b42ace752&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1cd1d37cc050a6e58bcef49cbef53ad77&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=1ce5006a0d5047b8baafd9e575361994&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$23",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $23"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "17466674",
+    "title": "New Islamabad Hotel",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$22",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/fa/54/60/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 373,
+          "maxWidth": 500,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/fa/54/5f/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/fa/54/5c/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/fa/54/5d/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=253284315&geo=17466674&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwl6HwOtb4vmYyXnTaoMk2iv7HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvUaP1gMEumXVweipnOL_rgQ2jkFqnaqWlPe49r48vOECzaL9WqOgzVu8UwgZc-ROZ3PvoAIF5j0CYkOfYf5Jnf9zhJ-NDhLYR10NQCUSnJjTgwTpUYXmDFx5V5wB3asPvr6JQ_Yj6hFnlzmMnDI-xRq&priceShown=21&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=18.3100&taxesRate=3.1100&feesRate=0&fees=3.1100&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_33bda55c83f58472dd93622a124ff758&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=07062c4b-1451-465f-ba66-f61b8b0b0d87&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=14d977a42db03ef67696c25f4d130890f&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=60c383e939844bdeaf09d1caebc50ff4&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$22",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "299172",
+    "title": "11. Islamabad Hotel",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "68",
+      "rating": 3.5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$105",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $76",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1536,
+          "maxWidth": 2048,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ad/ef/2a/photo6jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 683,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ea/fc/9b/hotel-front.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 639,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e4/c7/67/front-view.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1125,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e5/15/78/hotel-parking.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=100956495&geo=299172&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=udL-eTZAr-LDLaKui6wyyEaZc6yDEvv7x4Bxp5gZ9v_Szpk5IFFRmBSU3K9I_HvUx9SRdKrva9Pfiaxp7eGv6QLCN2uoXWOK1cIPqAw3Ya8Al0Yl1DZk9XprMlZUU2-KHgnwmZAXicTW1zoGsPMVnwNQ2JjgT_EL2LuyyluEBpQKLw4JEv1ju8kO7MecgFZfsY5jTwXhSIl_GQUAPtKhlI_oiYEwP1zHi2C2tD74-iZMPwhxXNur_nO5lL1uX_JEtYdtZpws9dOF08J2Bfz-uNg2QAMYK-T84MC4H3H0X3M&priceShown=104&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2800&rq=P&rate=86.1400&taxesRate=18.0900&feesRate=0&fees=18.0900&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_777e6392ee6983d6be1c9ecc157e3752&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=e7216751-7007-4bfc-944a-4efc181f462b&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=147b6d60aeab3b48a96a02ff74969258a&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=08ab9c1246664dd180e6b423e4934742&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$105",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $76"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "4965008",
+    "title": "12. Serai",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "32",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$67",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 4 deals from $67",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/5b/serai.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1161,
+          "maxWidth": 2064,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fe/7c/1b/dettagli-della-camera.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/47/serai.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/37/serai.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=69568822&geo=4965008&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=4&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJgA003FhiJyw59upfaEso5ex5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871kEOWqJ8sBN0rKi9XIE-Yya8oC2YI486WFN13FTRhY2Aihzd5Q0ziu0HwxjSV1rsZ-Qk-pVbkwdOXV14AOBKXCtTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=67&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=57.4200&taxesRate=9.1900&feesRate=0&fees=9.1900&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_15313f6b960cc3469d839978e542703f&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=f71498e6-4027-4ec2-931c-dc4c15bd468a&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1593225ef415c443e13e745cf457cb7ce&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=a6926ee8127c47b4bc51333edef899fb&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$67",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 4 deals from $67"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "25107977",
+    "title": "13. Nuva Hotel",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": "45% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$18",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/06/3f/8f/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/06/3f/91/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/06/3f/8d/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/06/3f/8e/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=253762239&geo=25107977&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIj3jhtLl35rR3WlcNl0LZj2ux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871bRuqTu6ZuGHScXV6ZkbMkNSuEO8boYFxT3eC-33O_ir7-wEwUVZ3bFxG6pCCa-27mT48400CjuKxackAFjm5YNTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=17&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=ML&rate=14.6500&taxesRate=2.4900&feesRate=0&fees=2.4900&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_7a36e8acb954d694fd7275f6e67b65af&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b4485581-05c7-4151-b97a-bcb68d31587a&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1334f5a0ec85522b35debd1de0bd4dace&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=21849b8610e546bebe9bba2f7afb9120&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$18",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "6778484",
+    "title": "14. Prestige Hotel And Resort",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "11",
+      "rating": 4.5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$89",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $79",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1936,
+          "maxWidth": 2592,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b6/fb/e3/dinning-hall.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1333,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/39/8c/8d/prestige-residence-boutique.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 395,
+          "maxWidth": 543,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/39/87/fc/prestige-residence-boutique.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3840,
+          "maxWidth": 5760,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/39/87/fd/prestige-residence-boutique.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=213225757&geo=6778484&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjBH-uMgdU_8ohHEmZSz4Lqux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871bMANRzW0vfJ4SgdKkCH1977VXmyBGL7RgJWqe9XH_ybfTHtoJfneW4K3e-RNtpd1y9ap7S2g6l3KpT_glGyUM9TMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=88&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1000&rq=P&rate=75.3300&taxesRate=12.8100&feesRate=0&fees=12.8100&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_310b9411c63570252fe7e0391f721935&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=f72cf458-9c44-4f70-9ad5-0f71acd2069c&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1f534dbbd91bc853aea962767beee2226&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=75a2706ae25840e08bccf419a3c6b8d5&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$89",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $79"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "1090914",
+    "title": "15. Hotel Crown Plaza",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "64",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$104",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $104",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2048,
+          "maxWidth": 2048,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/29/86/41/photo9jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 412,
+          "maxWidth": 550,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/29/d3/e8/room.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 412,
+          "maxWidth": 550,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/29/d3/e6/room.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 961,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/bf/a3/b3/hotel-crown-plaza.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=79684492&geo=1090914&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIj0jo6zt4oXqcA-HwvdMuGN-x5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871mxrV7nk9gyrqQuduvcXUBD7Ap_oEcCQi54d4G41yuG_fTHtoJfneW4K3e-RNtpd1-Qk-pVbkwdOXV14AOBKXCtTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=104&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=86.3300&taxesRate=17.2700&feesRate=0&fees=17.2700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_59a47fbf158d6a21898baaf621e6e6f4&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=729de0fe-2f5c-4f40-a94d-e6750c251fb0&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1925d46064a6b5f766c341f6d9f6eb107&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=c7db19df7c2d442b8c2c708592f24b1e&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$104",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $104"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "4965008",
+    "title": "Serai",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "32",
+      "rating": 4
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$67",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/5b/serai.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1161,
+          "maxWidth": 2064,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fe/7c/1b/dettagli-della-camera.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/47/serai.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 384,
+          "maxWidth": 512,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/9b/45/37/serai.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=69568822&geo=4965008&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwm13AHNTvLeOl9lO2Aep7lhglZPRalMqduk3BH8xHTdYFksBQja9ThnF9uBpiH3BjG24KJZLLCm4Ak7lZq6NTR82jkFqnaqWlPe49r48vOEC2wVsbnFW7MrAsZBB4zHX6nDj-QwW7bZx47Bn3aQsD2T-QXIT_CmHoHpW57C71WaZwwTpUYXmDFx5V5wB3asPvr6JQ_Yj6hFnlzmMnDI-xRq&priceShown=67&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=57.4200&taxesRate=9.1900&feesRate=0&fees=9.1900&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_15313f6b960cc3469d839978e542703f&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=1e735e33-c6cf-42be-b1ab-ac9d06da6d75&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=16c7c400fbf8cc28a1e035c6bb3f6541d&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=646b66c75fec4f48b62594b377de097a&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$67",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "26841168",
+    "title": "16. Sunrise Rest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$19",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $19",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/8f/52/d9/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/06/04/6c/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/8f/8a/22/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/8f/8a/21/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=230085185&geo=26841168&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=IelG8tv1J_S9X8UTeCysjgBgZEE0Kt1gBpYrIhyHUeSdU3PM1s0Fa3zllTv3Aex--BI2xR3VGIo0FQNrIJP-UYJWT0WpTKnbpNwR_MR03WBZLAUI2vU4ZxfbgaYh9wYxWm0G5nl4S6AQb7XoLxy8YLiLP63GLTSzzsOT4F2QkvvLNxvN5guALUfpOmHxM3om0E9qtU_Ce4e8gFPN_GXL3lYzqY2jjwlz0F3Uv4Mkx4pjZ8p6XscnHJ3Sysd2hLWNE2j-rFDZgQsMVKBGFyrAAw&priceShown=19&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=16.1000&taxesRate=2.7400&feesRate=0&fees=2.7400&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_752492c10ce3199612ca8d1db0105dc9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=e8a7da84-5658-43ec-be74-d056e13ff776&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1c6a065bf4b4c0ce7ec640b4e456337b1&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=852396fa58b94704a2364cbbdea811ab&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$19",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $19"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "17511686",
+    "title": "17. Reina Boutique Hotel",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "3",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$35",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 638,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d8/0d/54/reina-boutique-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 638,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d8/0d/59/reina-boutique-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 638,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d8/0d/58/reina-boutique-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 638,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d8/0d/53/reina-boutique-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=143734487&geo=17511686&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJjmeFSqx4MSllzGWjK8l3Aux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871foC9plkSVyETfRRqcdWVwl7AgfPjyAgI9CqiDmHC4i-EwFuQipJBNGBR5vGWngLjBhBYxN1h7--WyztQ0dQdCtTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=35&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=ML&rate=29.7200&taxesRate=5.0500&feesRate=0&fees=5.0500&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_26fae09568313b5db50e93b639db5016&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=ff88481d-e66c-4572-a266-2aea8337e307&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1b16b95995ad306190561954fc972e072&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=06c0c83d2dce467fa00334369b65341f&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$35",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "24991373",
+    "title": "18. Hyatt Aryana Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": "44% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$14",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $14",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/63/15/a4/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/51/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/52/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2b/81/3f/50/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=236713733&geo=24991373&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=IelG8tv1J_S9X8UTeCysjgBgZEE0Kt1gBpYrIhyHUeSdU3PM1s0Fa3zllTv3Aex-Z0aOjKlKomsFmziOeCy13-x5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA8710trjZF2O3eO6o3rgZg3Mq4Yt_XRNrRzxkbWHPkJ2ZYDLNxvN5guALUfpOmHxM3omPVJyLMYxq6JK-xGSqPbMV9TMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=13&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=11.4400&taxesRate=1.9500&feesRate=0&fees=1.9500&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_4c90c8aaca555579010a7dbeffd02958&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=1c24b5d1-2f8b-4d21-86b1-a22850f25008&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=16aeb7b808d59cc5f1ce2cbd668d550a8&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=d8a46f5508294f228e3ba469a5037152&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$14",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $14"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "10341193",
+    "title": "19. Legend Hotel Islamabad",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "9",
+      "rating": 3.5
+    },
+    "isSponsored": false,
+    "accentedLabel": "10% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$57",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 5 deals from $57",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3921,
+          "maxWidth": 5873,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/c2/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3997,
+          "maxWidth": 5987,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/be/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4001,
+          "maxWidth": 5387,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/fb/ba/legend-hotel-islamabad.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 921,
+          "maxWidth": 691,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cd/01/88/img-20181220-203021-largejpg.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=195101729&geo=10341193&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=5&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjr8fZWDowCcb07c8Gbih6Kux5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871NQWgHsPxidj1Igs6d6oGjuhWc_U0d2k1BLP_7I4Lh7xORFmiIGqYSIyATBzBrGSSw9CYMf_J0N-JXB__f5PngGwF7AxWFeJqv10IFinKxmQ5GnUyKKM4zxCo839dIikGggCyQwtSmDEm6FPVJTwdvg&priceShown=56&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=46.6500&taxesRate=9.8000&feesRate=0&fees=9.8000&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_764efa378ed633d7aa538058e6b41ba4&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b0017c03-3d00-4ab4-84e9-501e1407b932&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=132e0d4d154755e0d1680a239ae2e0472&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=e1fe75d7677c49259438e4e707221ca2&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$57",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 5 deals from $57"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "7611601",
+    "title": "20. Partridge Guest House",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "4",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Agoda.com",
+    "priceForDisplay": "$25",
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 2 deals from $25",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 360,
+          "maxWidth": 640,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/30/c7/partridge-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 360,
+          "maxWidth": 640,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/30/c5/partridge-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 183,
+          "maxWidth": 275,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/30/b8/partridge-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 360,
+          "maxWidth": 640,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/30/b7/partridge-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=Agoda&src=257149875&geo=7611601&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=5094&bucket=907535&nrank=2&crank=2&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=3YVRD56cm7ZypzYnVq29UZ4-az2Pt-87zwT_kuJLOBujv87TvcDMDnbP0CioZ05c__J7gv7mcv1nsQAccvfgD45uH9aCCh72Kv8ezenYtDvuH-do1wECwu2kK8oCaEcqA7OjLsI6o56Xcu0VHUaryqPdUlnh6pNCILenJsp4OGkl1IJhPW1cP7SwjbnJ6WDtvrnfAGdRxoTam15Me79V1I_oiYEwP1zHi2C2tD74-iZMPwhxXNur_nO5lL1uX_JEtYdtZpws9dOF08J2Bfz-uNg2QAMYK-T84MC4H3H0X3M&priceShown=24&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=21.0400&taxesRate=3.3700&feesRate=0&fees=3.3700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_4f24cfd113f19498882d660902f13a8c&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=86798ebc-3c62-48ad-b091-c3d9b858c172&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=19d49eb89ac8a710949356fb47afbb051&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=bd43581ecaf74eadb5731f3c5ddea985&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Agoda.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$25",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 2 deals from $25"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "299172",
+    "title": "Islamabad Hotel",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "68",
+      "rating": 3.5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$105",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1536,
+          "maxWidth": 2048,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ad/ef/2a/photo6jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 683,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ea/fc/9b/hotel-front.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 639,
+          "maxWidth": 960,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e4/c7/67/front-view.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1125,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e5/15/78/hotel-parking.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=100956495&geo=299172&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwnCMnu7AEN8IaI7CbhgFlKW7HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvU8lo2KnHDLm34DwkjGp8vFl2cntmpJZ7jI2UF9oxmSXoNkK0GSO2G1hIGghS3dn3u0ZPY2WSpvf8R4cuFmq1lev1mBZZKJsgyFQtnKOTpJSqegIq8P240GvRfUbYx_RANALN9ee2WgTFtnAwWM2pO7&priceShown=104&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2800&rq=P&rate=86.1400&taxesRate=18.0900&feesRate=0&fees=18.0900&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_777e6392ee6983d6be1c9ecc157e3752&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=b23d8ac5-ed42-4a50-9d64-1a0cee7a2286&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1499c3e822839c1e401365163030a66c7&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=8d66c5d0a0b046d4899adb96c1d6ccc6&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$105",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "8557664",
+    "title": "21. Sweet Dreams Resort 2",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$21",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $21",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/2d/d9/40/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/2d/d9/3d/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/2d/d9/3e/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/2d/d9/3f/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=259479396&geo=8557664&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=A3RYz341hTi5HEdFu0P3BQBgZEE0Kt1gBpYrIhyHUeQMKOoJ3Xv86wPfuAD8xzIjGhQqPC9ks9c6xTC71cNqkOx5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871JX6TPlMJyGpYNJfGR4tVeZoXtM2cYzjQazJHiG-93IL7-wEwUVZ3bFxG6pCCa-27mT48400CjuKxackAFjm5YNTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=21&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=P&rate=17.7700&taxesRate=3.0200&feesRate=0&fees=3.0200&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_426fee87ea6cfba25d10b2422c4e7acf&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=7c589c32-12f5-49bd-92cd-7247ee5c5c5a&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=17ca3b33d0c66eabe2e2c20f9576d9b5f&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=4ab1c9a9a00449bea3c3c2d98701064b&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$21",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $21"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "623900",
+    "title": "22. Hotel De Papae",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "19",
+      "rating": 3.5
+    },
+    "isSponsored": false,
+    "accentedLabel": "17% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$48",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 3 deals from $48",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1125,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/6b/da/c8/hotel-depapae-intl.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 960,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/45/36/be/hotel-de-papae.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1125,
+          "maxWidth": 2000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/6b/da/a8/hotel-depapae-intl.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1512,
+          "maxWidth": 2016,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/1d/5d/e5/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=196266233&geo=623900&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=3&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJImq489d2j7SK4rd35aT6cex5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871L3nGjb6cEbih47TNdl7mYOUj48s092axjXJ8n2fp-ddORFmiIGqYSIyATBzBrGSSmT48400CjuKxackAFjm5YNTMIPgLf9RfDESNKI0PcTIME6VGF5gxceVecAd2rD76-iUP2I-oRZ5c5jJwyPsUag&priceShown=47&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=38.7600&taxesRate=8.5300&feesRate=0&fees=8.5300&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_6df6176dbd683b5bc71301ed1c5d0c0e&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=8081af0d-8939-47e5-96fd-536261131209&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=14154ec3cd40eaf43c6c9d90450810aa1&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=ab9dbc80c877480282c0bbd02728ef76&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$48",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 3 deals from $48"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "9805215",
+    "title": "23. New Islamabad Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 3
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$21",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $21",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1008,
+          "maxWidth": 756,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/49/5b/95/ta-img-20180310-102957.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/ce/43/9a/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/ce/43/98/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/ce/43/97/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=151946470&geo=9805215&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=IelG8tv1J_S9X8UTeCysjgBgZEE0Kt1gBpYrIhyHUeSdU3PM1s0Fa3zllTv3Aex-o8OvzfBHe9hXAnHItd-jiex5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871ODHRzN59ghKDRyCgB8dcrG_rBFefB186HWJRE9dSBrhloW-XsuBwYFDj8uxJJSfm0E9qtU_Ce4e8gFPN_GXL3lYzqY2jjwlz0F3Uv4Mkx4pjZ8p6XscnHJ3Sysd2hLWNE2j-rFDZgQsMVKBGFyrAAw&priceShown=20&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=P&rate=17.2300&taxesRate=2.9300&feesRate=0&fees=2.9300&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_5d123eef78f8f978829163fa9f3b9ae9&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=6edcc28f-dffc-4bd1-806d-35c5628f84b7&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1b44a5f61526399aaca3f1a5c2a567510&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=4af86add8663436a91a6eceb9b10ad7e&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$21",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $21"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "25233029",
+    "title": "24. Hotel 11",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 2
+    },
+    "isSponsored": false,
+    "accentedLabel": "11% LESS THAN USUAL",
+    "provider": "Booking.com",
+    "priceForDisplay": "$20",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 2 deals from $20",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/93/bc/a0/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/93/bc/9e/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/93/bc/9f/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 460,
+          "maxWidth": 840,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2c/93/bc/a1/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=236271260&geo=25233029&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=2&silo=10476&bucket=903105&nrank=1&crank=1&clt=M&ttype=MobileCR&tm=303179636&managed=false&capped=false&gosox=kvOKBweEGtr7-JWd3uuzYQBgZEE0Kt1gBpYrIhyHUeRsujGEJpadjhFnslQgHAMJo8OvzfBHe9hXAnHItd-jiex5A-2V2IcH3kFn6KWUyV7TLzqLWWDFObqCRHsoA871cyPsD-9zHObTYZtVf3Y1tBY0pdvat_unREoC8sbXmH9PONsSjnCHg4yFgBKe-1qnLjfZh83cP6YjqjpT6WLulmIzKjEQ2z8uA7HT8jJ86x-i6yLcc0RSCLN_w5iAts0ujxhZ_xBldIp4I3rfLu9rDA&priceShown=20&pm=AI&hac=AVAILABLE&mbl=MEET&mbldelta=0&rq=ML&rate=16.6700&taxesRate=2.8300&feesRate=0&fees=2.8300&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_7b8afc0e742a11efc303609979be7922&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=4301c939-c4ea-47d9-b114-37ad82e9f4c3&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=117033f4bc0a3eed4d6c22aeca70db278&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=475d725e4fb743bbb336ab268006cced&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$20",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 2 deals from $20"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "2546418",
+    "title": "25. Hotel Hillview Islamabad",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {
+      "size": "SMALL",
+      "type": "TRAVELLER_CHOICE",
+      "year": "2024"
+    },
+    "bubbleRating": {
+      "count": "191",
+      "rating": 4.5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Vio.com",
+    "priceForDisplay": null,
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 4 deals from $15",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 3016,
+          "maxWidth": 4032,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/21/cb/c9/hill-view-hotel.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4000,
+          "maxWidth": 1800,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/16/3d/02/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 4624,
+          "maxWidth": 3468,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/03/85/23/caption.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 1920,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ee/75/7e/caption.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "provider": "Vio.com",
+      "loadingMessage": {
+        "text": "Loading prices..."
+      },
+      "priceForDisplay": null,
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 4 deals from $15"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "19330222",
+    "title": "Reina Boutique Hotel - G6/3",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "2",
+      "rating": 5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$33",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/2e/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/37/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 622,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/2c/3.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 850,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/98/21/3.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=260868891&geo=19330222&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwmwUFYApnGtyYhrD7-ScABs7HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvU0zchpM4F3Ofcm_cy_Wske2jkFqnaqWlPe49r48vOECy0JkDXZl1jHONzuuo-sr3b4tMLishP2rGw2pjU88qXnLfZ9-uT8QI-7hnJ7EeAdsQwTpUYXmDFx5V5wB3asPvr6JQ_Yj6hFnlzmMnDI-xRq&priceShown=32&pm=AI&hac=AVAILABLE&mbl=BEAT&mbldelta=0&rq=ML&rate=27.4600&taxesRate=4.6700&feesRate=0&fees=4.6700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_68ea8990e54d022a26636b0d2e72b31&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=422964bc-aa01-4718-ada1-514709645b4e&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=16f5dad905c0c3256236c2c37cd78d198&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=fe06ea2d0b8b400897ce14e3eda7ee3e&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$33",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "3671849",
+    "title": "26. Hotel Margala",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "85",
+      "rating": 4.5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Vio.com",
+    "priceForDisplay": null,
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 5 deals from $149",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 683,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/23/6d/d5/hotel-margala.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 615,
+          "maxWidth": 973,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/23/67/be/hotel-margala.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 681,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/23/66/e6/hotel-margala.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 679,
+          "maxWidth": 1024,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/23/66/42/hotel-margala.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "provider": "Vio.com",
+      "loadingMessage": {
+        "text": "Loading prices..."
+      },
+      "priceForDisplay": null,
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 5 deals from $149"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "14905685",
+    "title": "27. Backpackers Hostel & Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "21",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Vio.com",
+    "priceForDisplay": null,
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 3 deals from $6",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 960,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6f/be/c4/backpackers-hostel-guest.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 960,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6f/be/c2/backpackers-hostel-guest.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2048,
+          "maxWidth": 1536,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/cd/ba/photo2jpg.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1280,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/93/cd/b9/photo1jpg.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "provider": "Vio.com",
+      "loadingMessage": {
+        "text": "Loading prices..."
+      },
+      "priceForDisplay": null,
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 3 deals from $6"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "299771",
+    "title": "28. Islamabad Marriott Hotel",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "588",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$275",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": "View all 6 deals from $253",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2667,
+          "maxWidth": 4000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/09/0e/13/suite.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2667,
+          "maxWidth": 4000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/09/0e/18/restaurante-chino-dynasty.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2667,
+          "maxWidth": 4000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/09/0e/19/piscina-cubierta.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 2667,
+          "maxWidth": 4000,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/09/0e/16/suite-royal-dormitorio.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=42813052&geo=299771&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=6&silo=10476&bucket=903105&nrank=2&crank=1&clt=M&ttype=MobileCR&tm=303179637&managed=false&capped=false&gosox=wYngE9EYk6ZZHYV7hOupZ0aZc6yDEvv7x4Bxp5gZ9v-jIuhPNCT7J-iGAY-O1WtFvw5LsNEVnCLQ0XT4HOkhFQLCN2uoXWOK1cIPqAw3Ya8Al0Yl1DZk9XprMlZUU2-KlTwznaKYX1uZDHIXR_J8SvIBQhhvp4e15FY51dc0ss1oLG63uRKcl6hmdBY8sC3DwJbEtUmCrrlQaMxQK7vipel4FJhVlqxhN6_Z3FGksasb6vR_jodsgsNukLeP5QDbiKjzSySZmxA07r1e5NO32LHoUHhmBjEYlblM-GJmkW0&priceShown=274&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=2200&rq=P&rate=227.2400&taxesRate=47.1500&feesRate=0&fees=47.1500&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_319952a57ff532713d76984c6f57b670&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=2cbd7bad-3e83-4265-bc8a-cab3a0f542b4&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1af6733016ae25cd25f35dc5e33243178&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=fc5566cfa117464ea4144aa971c281ff&tp=APS-Hotels&pageLocId=293960",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$275",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": {
+        "text": "View all 6 deals from $253"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "5321023",
+    "title": "29. Savoy Inn Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "6",
+      "rating": 4
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Vio.com",
+    "priceForDisplay": null,
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 3 deals from $39",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 450,
+          "maxWidth": 815,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d5/91/77/savoy-inn-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 450,
+          "maxWidth": 815,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d5/91/83/savoy-inn-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 450,
+          "maxWidth": 815,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d5/91/7a/savoy-inn-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 450,
+          "maxWidth": 815,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d5/91/72/savoy-inn-guest-house.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "provider": "Vio.com",
+      "loadingMessage": {
+        "text": "Loading prices..."
+      },
+      "priceForDisplay": null,
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 3 deals from $39"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "14007211",
+    "title": "30. Millat Guest House",
+    "primaryInfo": null,
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "1",
+      "rating": 5
+    },
+    "isSponsored": false,
+    "accentedLabel": false,
+    "provider": "Vio.com",
+    "priceForDisplay": null,
+    "strikethroughPrice": null,
+    "priceDetails": null,
+    "priceSummary": "View all 3 deals from $16",
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 540,
+          "maxWidth": 540,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/95/28/81/millat-guest-house-is.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 900,
+          "maxWidth": 900,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/95/28/84/millat-guest-house-is.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 900,
+          "maxWidth": 900,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/95/28/82/millat-guest-house-is.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 480,
+          "maxWidth": 480,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/95/28/7f/millat-guest-house-is.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "provider": "Vio.com",
+      "loadingMessage": {
+        "text": "Loading prices..."
+      },
+      "priceForDisplay": null,
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": null,
+      "commerceSummary": {
+        "text": "View all 3 deals from $16"
+      },
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  },
+  {
+    "id": "20316698",
+    "title": "Avari Xpress Islamabad",
+    "primaryInfo": "Free breakfast available",
+    "secondaryInfo": null,
+    "badge": {},
+    "bubbleRating": {
+      "count": "17",
+      "rating": 5
+    },
+    "isSponsored": true,
+    "accentedLabel": false,
+    "provider": "Booking.com",
+    "priceForDisplay": "$100",
+    "strikethroughPrice": null,
+    "priceDetails": "Reserve now, pay at stay",
+    "priceSummary": null,
+    "cardPhotos": [
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a2/f7/parking-and-entrance.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/5d/twin-bed-room.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/0f/business-suite.jpg?w={width}&h={height}&s=1"
+        }
+      },
+      {
+        "__typename": "AppPresentation_PhotoItem",
+        "sizes": {
+          "__typename": "AppPresentation_PhotoItemSizeDynamic",
+          "maxHeight": 720,
+          "maxWidth": 1080,
+          "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/63/a3/08/elevator-and-stairs-for.jpg?w={width}&h={height}&s=1"
+        }
+      }
+    ],
+    "commerceInfo": {
+      "externalUrl": "https://www.tripadvisor.in/Commerce?p=BookingCom&src=176379761&geo=20316698&from=HotelDateSearch_Hotels&slot=1&matchID=1&oos=0&cnt=1&silo=47212&bucket=995259&nrank=1&crank=1&clt=SLMM&ttype=SponsoredMobileMeta&tm=303179637&managed=false&capped=false&gosox=mmkgLpRGtV8bkVj1HCHMa2y6MYQmlp2OEWeyVCAcAwmGf-y7p0wX3cN8sDoKicfh7HkD7ZXYhwfeQWfopZTJXtMvOotZYMU5uoJEeygDzvX0g2lcbucC-pnWrK8vK1VCl2cntmpJZ7jI2UF9oxmSXs7JqOA1UFnxx4VxcyEyJUYqAvIY1ENGmyviv_b_OFS0ubgM7TpUkmr3uhZDedx-FKegIq8P240GvRfUbYx_RANALN9ee2WgTFtnAwWM2pO7&priceShown=99&pm=AI&hac=AVAILABLE&mbl=LOSE&mbldelta=1400&rq=P&rate=85.4300&taxesRate=13.6700&feesRate=0&fees=13.6700&cur=USD&adults=1&child_rm_ages=&inDay=10&outDay=17&rdex=RDEX_52dcc5ffc62a9784966c8b660b097448&rooms=1&inMonth=8&inYear=2024&outMonth=8&outYear=2024&auid=093564af-2bd0-49f6-a7ac-6da308957b63&def_d=true&bld=L_7,D_0,G_1,W_6,U_1,C_240810,T_7&bh=true&cs=1548a280a62caa59378d8b13d154123f0&ik=46b62a22ed1e41d68ffdaf1554da7bf1&aok=6c6282b4dcab4934a11000d26bf80f3b&tp=APS-Hotels&pageLocId=293960&area=Spons%7CSpons_Meta_Pref",
+      "provider": "Booking.com",
+      "loadingMessage": null,
+      "priceForDisplay": {
+        "text": "$100",
+        "debugValueKey": null
+      },
+      "strikethroughPrice": null,
+      "pricingPeriod": null,
+      "details": {
+        "text": "Reserve now, pay at stay"
+      },
+      "commerceSummary": null,
+      "roomUrgencyMessage": null,
+      "labels": []
+    }
+  }
+]

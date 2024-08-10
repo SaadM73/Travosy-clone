@@ -46,7 +46,7 @@ function Places() {
 
   return (
     <Fragment>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Container>
         <Grid container spacing={2} mt={6}>
           {places.map((tour, index) => (

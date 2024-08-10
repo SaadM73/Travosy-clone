@@ -46,7 +46,7 @@ function Restaurants() {
 
   return (
     <Fragment>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Container>
         <Grid container spacing={2} mt={6}>
           {restaurants.map((tour, index) => (

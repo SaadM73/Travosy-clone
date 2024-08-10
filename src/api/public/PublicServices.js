@@ -37,6 +37,16 @@ const PublicServices = {
     const result = await get(PublicRoutes.getRestaurants + params);
     return result;
   },
+
+  getHeaderKeys: async () => {
+    const result = await get(PublicRoutes.getHeaderKeys);
+    return result;
+  },
+
+  getGeoLocationIds: async () => {
+    const result = await get(PublicRoutes.getGeoLocationIds);
+    return result;
+  }
 }
 
 export default PublicServices;

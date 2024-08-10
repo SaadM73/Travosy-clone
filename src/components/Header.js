@@ -119,6 +119,11 @@ const Header = () => {
                     Restaurants
                   </Link>
                 </li>
+                <li className="navbt-item">
+                  <Link to="/plan" className="navbt">
+                    Plan a trip
+                  </Link>
+                </li>
               </ul>
             </Grid>
           </Grid>

@@ -27,6 +27,7 @@ const Destinations = () => {
   const [hotels, setHotels] = useState([]);
   const [page, setPage] = useState(0);
   const [limit, setLimit] = useState(10);
+  const [headerKeys, setHeaderKeys] = useState(null);
 
   const images = [
     { src: image1, title: "Karachi, Pakistan" },
@@ -53,8 +54,21 @@ const Destinations = () => {
     }
   }
 
+  const getHeaderKeys = async () => {
+    try {
+      const result = await PublicServices.getHeaderKeys();
+      if (result.responseCode == 200) {
+        console.log(result)
+        setHeaderKeys(result.data)
+      }
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   useEffect(() => {
-    getHotels()
+    getHotels();
+    getHeaderKeys();
   }, [])
 
   return (

@@ -45,7 +45,7 @@ function Hotels() {
   }, []);
   return (
     <Fragment>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Container>
         <Grid container spacing={2} mt={6}>
           {hotels.map((tour, index) => (

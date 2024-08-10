@@ -9,21 +9,24 @@ import Listing from "./pages/Listing";
 import Restaurants from "./pages/Restaurants";
 import Places from "./pages/Places";
 import Hotels from "./pages/Hotels";
+import Plan from "./pages/Plan";
+import Layout from "./layout";
 
 
 function App() {
   return (
     <Router>
-      <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/listing" element={<Listing />} />
-        <Route path="/hotels" element={<Hotels />} />
-        <Route path="/places" element={<Places />} />
-        <Route path="/restaurants" element={<Restaurants />} />
-        <Route path="/tourpackage" element={<Tourpackage />} />
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/listing" element={<Listing />} />
+          <Route path="/hotels" element={<Hotels />} />
+          <Route path="/places" element={<Places />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/tourpackage" element={<Tourpackage />} />
+          <Route path="/plan" element={<Plan />} />
+        </Route>
       </Routes>
-      {/* <Footer /> */}
     </Router>
   );
 }

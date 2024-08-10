@@ -77,7 +77,7 @@ function Listing() {
 
   return (
     <Fragment>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Container>
         {state?.navigateFrom == "page" && (
           <Grid container spacing={4} mt={6}>

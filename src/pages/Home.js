@@ -13,12 +13,12 @@ import Testimonials from "../components/Testimonials";
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection height={"100vh"} /> */}
       <FormComponent />
       <Destinations />
       <Tours />
       <Restaurants />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
