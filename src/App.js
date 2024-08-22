@@ -11,6 +11,7 @@ import Places from "./pages/Places";
 import Hotels from "./pages/Hotels";
 import Plan from "./pages/Plan";
 import Layout from "./layout";
+import Tourpackage2 from "./components/Tourpackage2";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/places" element={<Places />} />
           <Route path="/restaurants" element={<Restaurants />} />
           <Route path="/tourpackage" element={<Tourpackage />} />
+          <Route path="/tourpackage-details" element={<Tourpackage2 />} />
           <Route path="/plan" element={<Plan />} />
         </Route>
       </Routes>

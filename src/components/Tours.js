@@ -48,7 +48,7 @@ const Tours = () => {
         {tours.slice(7, 13).map((tour, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card className="tour-card"
-              onClick={() => navigate("/tourpackage", { state: tour })}
+              onClick={() => navigate("/tourpackage-details", { state: tour })}
               sx={{ height: "330px" }}
             >
               <div className="image-container">

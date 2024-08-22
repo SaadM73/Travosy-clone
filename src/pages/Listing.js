@@ -48,7 +48,7 @@ function Listing() {
 
   const searchData = async () => {
     try {
-      const result = await PublicServices.searchData(state?.search, state?.selectedType);
+      const result = await PublicServices.searchData(state?.search, state?.selectedType, 48, page);
       console.log("🚀 ~ searchData ~ result:", result)
       if (result.responseCode == 200) {
         setHotels(result.data.hotels);

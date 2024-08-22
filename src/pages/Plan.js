@@ -228,6 +228,11 @@ export default function Plan() {
       )}
       {activeStep == 0 && (
         <Grid container gap={2} justifyContent={"center"} p={2}>
+          <Grid item md={12}>
+            <Typography variant={"h4"} sx={{ color: "#00000099", textAlign: "center" }}>
+              Trip Duration
+            </Typography>
+          </Grid>
           <Grid item md={3.5}>
             <LocalizationProvider dateAdapter={AdapterMoment}>
               <Box component={Paper}>
@@ -452,98 +457,6 @@ export default function Plan() {
           </Grid>
         </Grid>
       )}
-      {/* {activeStep == 3 && (
-        <Grid container justifyContent={"center"} p={2}>
-          <Grid item md={7}>
-            <FormControl
-              sx={{
-                width: "100%",
-                display: "flex",
-                alignItems: "center",
-                flexDirection: "column",
-                gap: 2
-              }}
-            >
-              <FormLabel id="demo-row-radio-buttons-group-label">
-                <Typography variant='h4'>Select Your Interest</Typography>
-              </FormLabel>
-              <RadioGroup
-                row
-                aria-labelledby="demo-row-radio-buttons-group-label"
-                name="row-radio-buttons-group"
-                sx={{
-                  justifyContent: "center",
-                  gap: 2,
-                  width: "100%"
-                }}
-                value={selectedInterestValue}
-                onChange={handleInterestSelectionChange}
-              >
-                <Paper
-                  sx={{
-                    width: "160px",
-                    boxShadow: selectedInterestValue === 'hotels'
-                      ? '0px 0px 5px 1px #e30037'
-                      : '0px 0px 5px 1px rgba(0, 0, 0, 0.2)'
-                  }}
-                >
-                  <FormControlLabel
-                    value="hotels"
-                    control={
-                      <Radio sx={{ display: 'none' }} />
-                    }
-                    sx={{
-                      m: 0,
-                      width: "100%"
-                    }}
-                    label={<Typography sx={{ p: 2, width: "100%" }}>Hotels</Typography>}
-                  />
-                </Paper>
-                <Paper
-              sx={{
-                width: "160px",
-                boxShadow: selectedValue === 'family'
-                  ? '0px 0px 5px 1px #e30037'
-                  : '0px 0px 5px 1px rgba(0, 0, 0, 0.2)'
-              }}
-            >
-              <FormControlLabel
-                value="family"
-                control={
-                  <Radio sx={{ display: 'none' }} />
-                }
-                sx={{
-                  m: 0,
-                  width: "100%"
-                }}
-                label={<Typography sx={{ p: 2, width: "100%" }}></Typography>}
-              />
-            </Paper>
-                <Paper
-                  sx={{
-                    width: "160px",
-                    boxShadow: selectedInterestValue === 'restaurants'
-                      ? '0px 0px 5px 1px #e30037'
-                      : '0px 0px 5px 1px rgba(0, 0, 0, 0.2)'
-                  }}
-                >
-                  <FormControlLabel
-                    value="restaurants"
-                    control={
-                      <Radio sx={{ display: 'none' }} />
-                    }
-                    sx={{
-                      m: 0,
-                      width: "100%"
-                    }}
-                    label={<Typography sx={{ p: 2, width: "100%" }}>Restaurants</Typography>}
-                  />
-                </Paper>
-              </RadioGroup>
-            </FormControl>
-          </Grid>
-        </Grid>
-      )} */}
       {loading ? (
         <Box sx={{ width: "100%", height: "300px", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <CircularProgress sx={{ color: "#e30037" }} />

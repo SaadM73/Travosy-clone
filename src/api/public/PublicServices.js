@@ -2,10 +2,10 @@ import { get } from "../index";
 import PublicRoutes from "./Public.routes";
 
 const PublicServices = {
-  searchData: async (search, type) => {
+  searchData: async (search, type, limit, page) => {
     let param;
-    if (search != "" && type != "") {
-      param = `?search=${search}&type=${type}`;
+    if (search != "" && type != "" && limit != "" && page != "") {
+      param = `?search=${search}&type=${type}&page_size=${limit}&page_number=${page}`;
     }
     const result = await get(PublicRoutes.searchData + param);
     return result;
