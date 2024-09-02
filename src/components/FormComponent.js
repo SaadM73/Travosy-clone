@@ -28,7 +28,7 @@ const InputField = styled(TextField)({
 })
 
 const FormComponent = () => {
-  const [selectedType, setSelectedType] = useState("");
+  const [selectedType, setSelectedType] = useState("all");
   const [search, setSearch] = useState("");
 
   const navigate = useNavigate();
@@ -46,97 +46,111 @@ const FormComponent = () => {
   return (
     <form className="form-container">
       <Grid container rowSpacing={3} justifyContent="center">
-        <Grid item md={12}>
-          <Grid container justifyContent={"center"}>
-            <Grid item md={1}>
+        <Grid item md={7} sm={10} xs={12}>
+          <Grid container justifyContent="center" spacing={2}>
+            <Grid item xs={3}>
               <Button
+                fullWidth
                 sx={{
                   textTransform: "capitalize",
                   borderRadius: "20px",
-                  background: selectedType == "Search_All" ? "#e30037" : "transparent",
-                  color: selectedType == "Search_All" ? "#ffffff" : "#000000",
+                  background: selectedType == "all" ? "#e30037" : "transparent",
+                  color: selectedType == "all" ? "#ffffff" : "#000000",
                   fontWeight: 600,
                   ":hover": {
-                    textDecoration: selectedType == "Search_All" ? "none" : "underline",
-                    background: selectedType == "Search_All" ? "#e30037" : "transparent",
-                    color: selectedType == "Search_All" ? "#ffffff" : "#000000",
-                  }
+                    textDecoration: selectedType == "all" ? "none" : "underline",
+                    background: selectedType == "all" ? "#e30037" : "transparent",
+                    color: selectedType == "all" ? "#ffffff" : "#000000",
+                  },
                 }}
-                onClick={() => setSelectedType("Search_All")}
+                onClick={() => setSelectedType("all")}
               >
                 Search All
               </Button>
             </Grid>
-            <Grid item md={0.7}>
+            <Grid item xs={3}>
               <Button
+                fullWidth
                 sx={{
                   textTransform: "capitalize",
                   borderRadius: "20px",
-                  background: selectedType == "Hotels" ? "#e30037" : "transparent",
-                  color: selectedType == "Hotels" ? "#ffffff" : "#000000",
+                  background: selectedType == "hotels" ? "#e30037" : "transparent",
+                  color: selectedType == "hotels" ? "#ffffff" : "#000000",
                   fontWeight: 600,
                   ":hover": {
-                    textDecoration: selectedType == "Hotels" ? "none" : "underline",
-                    background: selectedType == "Hotels" ? "#e30037" : "transparent",
-                    color: selectedType == "Hotels" ? "#ffffff" : "#000000",
-                  }
+                    textDecoration: selectedType == "hotels" ? "none" : "underline",
+                    background: selectedType == "hotels" ? "#e30037" : "transparent",
+                    color: selectedType == "hotels" ? "#ffffff" : "#000000",
+                  },
                 }}
-                onClick={() => setSelectedType("Hotels")}
+                onClick={() => setSelectedType("hotels")}
               >
                 Hotels
               </Button>
             </Grid>
-            <Grid item md={1.2}>
+            <Grid item xs={3}>
               <Button
+                fullWidth
                 sx={{
                   textTransform: "capitalize",
                   borderRadius: "20px",
-                  background: selectedType == "Things_to_Do" ? "#e30037" : "transparent",
-                  color: selectedType == "Things_to_Do" ? "#ffffff" : "#000000",
+                  background: selectedType == "attractions" ? "#e30037" : "transparent",
+                  color: selectedType == "attractions" ? "#ffffff" : "#000000",
                   fontWeight: 600,
                   ":hover": {
-                    textDecoration: selectedType == "Things_to_Do" ? "none" : "underline",
-                    background: selectedType == "Things_to_Do" ? "#e30037" : "transparent",
-                    color: selectedType == "Things_to_Do" ? "#ffffff" : "#000000",
-                  }
+                    textDecoration: selectedType == "attractions" ? "none" : "underline",
+                    background: selectedType == "attractions" ? "#e30037" : "transparent",
+                    color: selectedType == "attractions" ? "#ffffff" : "#000000",
+                  },
                 }}
-                onClick={() => setSelectedType("Things_to_Do")}
+                onClick={() => setSelectedType("attractions")}
               >
-                Things to Do
+                Attractions
               </Button>
             </Grid>
-            <Grid item md={1}>
+            <Grid item xs={3}>
               <Button
+                fullWidth
                 sx={{
                   textTransform: "capitalize",
                   borderRadius: "20px",
-                  background: selectedType == "Restaurants" ? "#e30037" : "transparent",
-                  color: selectedType == "Restaurants" ? "#ffffff" : "#000000",
+                  background: selectedType == "restaurants" ? "#e30037" : "transparent",
+                  color: selectedType == "restaurants" ? "#ffffff" : "#000000",
                   fontWeight: 600,
                   ":hover": {
-                    textDecoration: selectedType == "Restaurants" ? "none" : "underline",
-                    background: selectedType == "Restaurants" ? "#e30037" : "transparent",
-                    color: selectedType == "Restaurants" ? "#ffffff" : "#000000",
-                  }
+                    textDecoration: selectedType == "restaurants" ? "none" : "underline",
+                    background: selectedType == "restaurants" ? "#e30037" : "transparent",
+                    color: selectedType == "restaurants" ? "#ffffff" : "#000000",
+                  },
                 }}
-                onClick={() => setSelectedType("Restaurants")}
+                onClick={() => setSelectedType("restaurants")}
               >
                 Restaurants
               </Button>
             </Grid>
           </Grid>
         </Grid>
-        <Grid item md={12}>
+
+        <Grid item md={12} sx={12} xs={12}>
           <InputField
             value={search}
             fullWidth
             placeholder="Hotels, Things to Do, Restaurants"
             onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                handleNavigate();
+              }
+            }}
             InputProps={{
               startAdornment: <SearchIcon />,
               endAdornment: (
                 <Button
-                  onClick={() => handleNavigate()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavigate();
+                  }}
                   sx={{
                     background: "#e30037",
                     color: "#ffffff",

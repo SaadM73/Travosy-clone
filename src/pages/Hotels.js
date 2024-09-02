@@ -50,7 +50,7 @@ function Hotels() {
         <Grid container spacing={2} mt={6}>
           {hotels.map((tour, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+              <Card className="tour-card" onClick={() => navigate("/tourpackage-details", { state: tour })}>
                 <div className="image-container">
                   <CardMedia
                     component="img"

@@ -88,7 +88,18 @@ const Restaurants = () => {
         ))}
       </Grid>
       <div className="see-more-container">
-        <a href="#" className="explore-now-link see-more-link">
+        <a
+          className="explore-now-link see-more-link"
+          onClick={() => navigate("/restaurants")}
+          style={{
+            border: "1px solid #e30037",
+            borderRadius: "4px",
+            color: "#e30037",
+            padding: "10px 20px",
+            cursor: "pointer"
+          }}
+        >
+
           See More Tours <i className="bi bi-arrow-right"></i>
         </a>
       </div>

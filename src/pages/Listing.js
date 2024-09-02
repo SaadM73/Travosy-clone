@@ -15,6 +15,9 @@ function Listing() {
   const [page, setPage] = useState(1);
   const [count, setCount] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [displayedHotels, setDisplayedHotels] = useState(15);
+  const [displayedPlaces, setDisplayedPlaces] = useState(15);
+  const [displayedRestaurants, setDisplayedRestaurants] = useState(15);
 
   const navigate = useNavigate();
   const { state } = useLocation();
@@ -44,27 +47,37 @@ function Listing() {
     } finally {
       setLoading(false);
     }
-  }
+  };
 
   const searchData = async () => {
     try {
       const result = await PublicServices.searchData(state?.search, state?.selectedType, 48, page);
       console.log("🚀 ~ searchData ~ result:", result)
       if (result.responseCode == 200) {
-        setHotels(result.data.hotels);
-        setPlaces(result.data.attractions);
-        setRestaurants(result.data.restaurants);
+        setHotels(result.data.hotels.hotelList);
+        setPlaces(result.data.attractions.attractionList);
+        setRestaurants(result.data.restaurants.restaurantList);
       }
     } catch (err) {
       console.log(err)
     }
-  }
+  };
 
   const handleChangePage = () => {
     const newPage = page + 1;
     setPage(newPage);
     getData(newPage);
-  }
+  };
+
+  const handleLoadMore = (type) => {
+    if (type === 'hotels') {
+      setDisplayedHotels(prev => prev + 15);
+    } else if (type === 'places') {
+      setDisplayedPlaces(prev => prev + 15);
+    } else if (type === 'restaurants') {
+      setDisplayedRestaurants(prev => prev + 15);
+    }
+  };
 
   useEffect(() => {
     if (state?.navigateFrom == "page") {
@@ -83,7 +96,7 @@ function Listing() {
           <Grid container spacing={4} mt={6}>
             {data.map((tour, index) => (
               <Grid item xs={12} sm={6} md={4} key={index}>
-                <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+                <Card className="tour-card" onClick={() => navigate("/tourpackage-details", { state: tour })}>
                   <div className="image-container">
                     <CardMedia
                       component="img"
@@ -151,17 +164,21 @@ function Listing() {
               <Grid item md={12} sm={12} xs={12}>
                 <Grid container spacing={4}>
                   <Grid item md={12} sm={12} xs={12}>
-                    <h3>Hotels</h3>
+                    <h2>Hotels</h2>
                   </Grid>
-                  {hotels.map((tour, index) => (
+                  {hotels.slice(0, displayedHotels).map((tour, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                      <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+                      <Card
+                        sx={{ height: "330px" }}
+                        className="tour-card"
+                        onClick={() => navigate("/tourpackage-details", { state: tour })}
+                      >
                         <div className="image-container">
                           <CardMedia
                             component="img"
                             alt={tour.title}
                             height="200"
-                            image={tour.image == null ? dummyImage : tour.image}
+                            image={tour.image == "https://developers.elementor.com/path/to/placeholder.png" ? dummyImage : tour.image}
                             className="tour-image"
                           />
                           <div className="favorite-icon">
@@ -184,6 +201,34 @@ function Listing() {
                       </Card>
                     </Grid>
                   ))}
+                  {displayedHotels < hotels.length && (
+                    <Grid item md={12}>
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "center"
+                        }}
+                      >
+                        <Button
+                          variant={"contained"}
+                          sx={{
+                            p: "6px 24px",
+                            background: "#e30037",
+                            border: "1px solid transparent",
+                            color: "#ffffff",
+                            ":hover": {
+                              background: "transparent",
+                              border: "1px solid #e30037",
+                              color: "#e30037",
+                            }
+                          }}
+                          onClick={() => handleLoadMore('hotels')}
+                        >
+                          Load More
+                        </Button>
+                      </Box>
+                    </Grid>
+                  )}
                 </Grid>
               </Grid>
             )}
@@ -191,17 +236,21 @@ function Listing() {
               <Grid item md={12} sm={12} xs={12}>
                 <Grid container spacing={4}>
                   <Grid item md={12} sm={12} xs={12}>
-                    <h3>Places</h3>
+                    <h2>Places</h2>
                   </Grid>
-                  {places.map((tour, index) => (
+                  {places.slice(0, displayedPlaces).map((tour, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                      <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+                      <Card
+                        sx={{ height: "330px" }}
+                        className="tour-card"
+                        onClick={() => navigate("/tourpackage-details", { state: tour })}
+                      >
                         <div className="image-container">
                           <CardMedia
                             component="img"
                             alt={tour.title}
                             height="200"
-                            image={tour.image == null ? dummyImage : tour.image}
+                            image={tour.image == "https://developers.elementor.com/path/to/placeholder.png" ? dummyImage : tour.image}
                             className="tour-image"
                           />
                           <div className="favorite-icon">
@@ -224,6 +273,34 @@ function Listing() {
                       </Card>
                     </Grid>
                   ))}
+                  {displayedPlaces < hotels.length && (
+                    <Grid item md={12}>
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "center"
+                        }}
+                      >
+                        <Button
+                          variant={"contained"}
+                          sx={{
+                            p: "6px 24px",
+                            background: "#e30037",
+                            border: "1px solid transparent",
+                            color: "#ffffff",
+                            ":hover": {
+                              background: "transparent",
+                              border: "1px solid #e30037",
+                              color: "#e30037",
+                            }
+                          }}
+                          onClick={() => handleLoadMore('places')}
+                        >
+                          Load More
+                        </Button>
+                      </Box>
+                    </Grid>
+                  )}
                 </Grid>
               </Grid>
             )}
@@ -231,17 +308,21 @@ function Listing() {
               <Grid item md={12} sm={12} xs={12}>
                 <Grid container spacing={4}>
                   <Grid item md={12} sm={12} xs={12}>
-                    <h3>Restaurants</h3>
+                    <h2>Restaurants</h2>
                   </Grid>
-                  {restaurants.map((tour, index) => (
+                  {restaurants.slice(0, displayedRestaurants).map((tour, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                      <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+                      <Card
+                        sx={{ height: "330px" }}
+                        className="tour-card"
+                        onClick={() => navigate("/tourpackage-details", { state: tour })}
+                      >
                         <div className="image-container">
                           <CardMedia
                             component="img"
                             alt={tour.title}
                             height="200"
-                            image={tour.image == null ? dummyImage : tour.image}
+                            image={tour.image == "https://developers.elementor.com/path/to/placeholder.png" ? dummyImage : tour.image}
                             className="tour-image"
                           />
                           <div className="favorite-icon">
@@ -264,6 +345,34 @@ function Listing() {
                       </Card>
                     </Grid>
                   ))}
+                  {displayedRestaurants < restaurants.length && (
+                    <Grid item md={12}>
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "center"
+                        }}
+                      >
+                        <Button
+                          variant={"contained"}
+                          sx={{
+                            p: "6px 24px",
+                            background: "#e30037",
+                            border: "1px solid transparent",
+                            color: "#ffffff",
+                            ":hover": {
+                              background: "transparent",
+                              border: "1px solid #e30037",
+                              color: "#e30037",
+                            }
+                          }}
+                          onClick={() => handleLoadMore('restaurants')}
+                        >
+                          Load More
+                        </Button>
+                      </Box>
+                    </Grid>
+                  )}
                 </Grid>
               </Grid>
             )}

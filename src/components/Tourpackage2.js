@@ -1,29 +1,10 @@
 import React from "react";
 import Footer from "./Footer";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-} from "swiper/modules";
 import { Container, Grid, Box, Button, TextField, CardMedia, Rating, Typography, Card, CardContent, Stack, Chip } from "@mui/material";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-
-// Import images
-import image1 from "./images/HotelKarachi.jpg";
-import image2 from "./images/HotelLahore.jpg";
-import image3 from "./images/HotelIslamabad.jpg";
-
 import { useLocation } from "react-router-dom";
 import "./Tourpackage.css";
 import { Email } from "@mui/icons-material";
+import CubaImg from "../components/images/Cuba.jpg";
 
 const Tourpackage2 = () => {
   const { state } = useLocation();
@@ -37,7 +18,7 @@ const Tourpackage2 = () => {
           <Grid item md={12} sm={12} xs={12}>
             <CardMedia
               component={"img"}
-              src={state?.image}
+              src={state?.image == "https://developers.elementor.com/path/to/placeholder.png" ? CubaImg : state?.image}
               sx={{
                 width: "100%",
                 height: "550px",

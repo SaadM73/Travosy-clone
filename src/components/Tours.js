@@ -20,9 +20,9 @@ const Tours = () => {
   const getAttractions = async (pagination, page, limit, city) => {
     try {
       const result = await PublicServices.getAttractions(
-        pagination ? pagination : false,
+        pagination ? pagination : true,
         page ? page : 1,
-        limit ? limit : 10,
+        limit ? limit : 6,
         city ? city : ""
       )
       if (result.responseCode == 200) {
@@ -45,7 +45,7 @@ const Tours = () => {
         within best budget!
       </p>
       <Grid container spacing={4}>
-        {tours.slice(7, 13).map((tour, index) => (
+        {tours.map((tour, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card className="tour-card"
               onClick={() => navigate("/tourpackage-details", { state: tour })}
@@ -56,7 +56,7 @@ const Tours = () => {
                   component="img"
                   alt={tour.title}
                   height="200"
-                  image={tour.image}
+                  image={tour.image == "https://developers.elementor.com/path/to/placeholder.png" ? CubaImg : tour.image}
                   className="tour-image"
                 />
                 <div className="favorite-icon">
@@ -81,7 +81,17 @@ const Tours = () => {
         ))}
       </Grid>
       <div className="see-more-container">
-        <a href="#" className="explore-now-link see-more-link">
+        <a
+          className="explore-now-link see-more-link"
+          onClick={() => navigate("/places")}
+          style={{
+            border: "1px solid #e30037",
+            borderRadius: "4px",
+            color: "#e30037",
+            padding: "10px 20px",
+            cursor: "pointer"
+          }}
+        >
           See More Tours <i className="bi bi-arrow-right"></i>
         </a>
       </div>

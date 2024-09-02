@@ -1,7 +1,6 @@
 .testimonials {
   text-align: center;
   padding: 50px 10%;
-  font-family: Arial, sans-serif;
 }
 
 .testimonials-title {
@@ -17,12 +16,8 @@
   padding: 0 25%;
 }
 
-.swiper-pagination {
-  bottom: -30px !important;
-}
-
 .swiper-pagination-bullet {
-  background-color: #ff6f61 !important;
+  background-color: #e30037 !important;
 }
 
 .testimonial-slide {
@@ -37,24 +32,28 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 450px; /* Adjusted for the design */
+  max-width: 450px;
+  /* Adjusted for the design */
   text-align: center;
   position: relative;
-  margin-bottom: 50px; /* Add some space at the bottom for the arrow */
+  margin-bottom: 50px;
+  /* Add some space at the bottom for the arrow */
 }
 
 
 .testimonial-card::after {
   content: '';
   position: absolute;
-  bottom: -20px; /* Position the arrow */
+  bottom: -20px;
+  /* Position the arrow */
   left: 50%;
   transform: translateX(-50%);
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #fff; /* Match the background color of the card */
+  border-top: 20px solid #fff;
+  /* Match the background color of the card */
 }
 
 .testimonial-text {
@@ -67,7 +66,8 @@
 
 
 .testimonial-text::before {
-  content: '\201C'; /* Left double quote */
+  content: '\201C';
+  /* Left double quote */
   font-size: 8em;
   color: #ff6f61;
   position: absolute;
@@ -91,7 +91,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin-top:-7%;
+  margin-top: -7%;
   margin-bottom: 10px;
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Container, Grid, useMediaQuery } from "@mui/material";
+import { Box, Container, Grid, Typography, useMediaQuery } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import EmailIcon from "@mui/icons-material/Email";
@@ -55,35 +55,76 @@ const Header = () => {
   return (
     <>
       {isTopNavVisible && (
-        <div className="top-nav">
-          <div className="top-nav-left">
-            <span>
-              <AccessTimeIcon className="time-icon" /> Mon–Sat: 9am to 6pm
-            </span>
-            <span>
-              <LocationOnIcon className="location-icon" /> Houston, USA 485
-            </span>
-          </div>
-          <div className="top-nav-right">
-            <span>
-              <EmailIcon className="mail-icon" /> contact@example.com
-            </span>
-            <span>
-              <a href="https://www.facebook.com">
-                <FacebookIcon />
-              </a>
-              <a href="https://www.instagram.com">
-                <InstagramIcon />
-              </a>
-              <a href="https://www.twitter.com">
-                <TwitterIcon />
-              </a>
-              <a href="tel:+1234567890">
-                <PhoneIcon />
-              </a>
-            </span>
-          </div>
-        </div>
+        <Grid container sx={{ backgroundColor: "#0f172a", alignItems: "center", py: 1 }} rowGap={1}>
+          <Grid item md={6} sm={12} xs={12}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                gap: 3
+              }}
+            >
+              <span>
+                <AccessTimeIcon className="time-icon" />
+                <Typography
+                  component={"span"}
+                  sx={{
+                    color: "#ffffff"
+                  }}
+                >
+                  Mon–Sat: 9am to 6pm
+                </Typography>
+              </span>
+              <span>
+                <LocationOnIcon className="location-icon" />
+                <Typography
+                  component={"span"}
+                  sx={{
+                    color: "#ffffff"
+                  }}
+                >
+                  Houston, USA 485
+                </Typography>
+              </span>
+            </Box>
+          </Grid>
+          <Grid item md={6} sm={12} xs={12}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                gap: 3
+              }}
+              className="top-nav-right"
+            >
+              <span>
+                <EmailIcon className="mail-icon" />
+                <Typography
+                  component={"span"}
+                  sx={{
+                    color: "#ffffff"
+                  }}
+                >
+                  contact@example.com
+                </Typography>
+              </span>
+              <span>
+                <a href="https://www.facebook.com">
+                  <FacebookIcon />
+                </a>
+                <a href="https://www.instagram.com">
+                  <InstagramIcon />
+                </a>
+                <a href="https://www.twitter.com">
+                  <TwitterIcon />
+                </a>
+                <a href="tel:+1234567890">
+                  <PhoneIcon />
+                </a>
+              </span>
+            </Box>
+          </Grid>
+        </Grid>
       )}
       <nav className={`navbar ${isScrolledDown && "scrolled"}`}>
         <Container>

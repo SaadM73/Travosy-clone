@@ -1,7 +1,6 @@
 .travel-blogs {
   text-align: center;
   padding: 50px 20px;
-  font-family: Arial, sans-serif;
 }
 
 .travel-blogs h2 {
@@ -37,7 +36,8 @@
 
 
 .blog-card:hover .blog-image {
-  transform: scale(1.1) rotate(2deg); /* Zoom in and rotate */
+  transform: scale(1.1) rotate(2deg);
+  /* Zoom in and rotate */
 }
 
 .blog-image {

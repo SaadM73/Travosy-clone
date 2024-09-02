@@ -8,7 +8,7 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-import { Container, Grid, Box, Button, TextField, CardMedia, Rating, Typography, Card, CardContent } from "@mui/material";
+import { Container, Grid, Box, Button, TextField, CardMedia, Rating, Typography, Card, CardContent, CardActions, Accordion, AccordionSummary, AccordionDetails, IconButton } from "@mui/material";
 
 // Import Swiper styles
 import "swiper/css";
@@ -23,13 +23,19 @@ import image3 from "./images/HotelIslamabad.jpg";
 
 import { useLocation } from "react-router-dom";
 import "./Tourpackage.css";
-import { Email } from "@mui/icons-material";
+import { Email, ExpandMore, Room } from "@mui/icons-material";
 
 const Tourpackage = () => {
   const { state } = useLocation();
   // const type = state?.type.split(" ")
   // console.log("🚀 ~ Tourpackage ~ type:", type)
-  console.log("🚀 ~ Tourpackage ~ state:", state)
+  console.log("🚀 ~ Tourpackage ~ state:", state);
+
+  const handleOpenMap = () => {
+    const { latitude, longitude } = state?.geoPoint;
+    const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
+    window.open(url, '_blank');
+  };
 
   return (
     <>
@@ -38,7 +44,23 @@ const Tourpackage = () => {
         <Grid container spacing={3} className="main-content">
           <Grid item md={12} sm={12} xs={12}>
             <Swiper
-              slidesPerView={3}
+              breakpoints={{
+                // when window width is >= 320px
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 10
+                },
+                // when window width is >= 480px
+                480: {
+                  slidesPerView: 2,
+                  spaceBetween: 10
+                },
+                // when window width is >= 640px
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 10
+                }
+              }}
               spaceBetween={10}
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               navigation
@@ -68,7 +90,23 @@ const Tourpackage = () => {
 
           <Grid item xs={12} md={8} className="left-section">
             <div className="tour-details">
-              <h2>{state?.title}</h2>
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between"
+                }}
+              >
+                <h2>{state?.title}</h2>
+                <IconButton
+                  sx={{
+                    boxShadow: "0px 0px 15px 2px #dcdcdc"
+                  }}
+                  onClick={() => handleOpenMap()}
+                >
+                  <Room sx={{ color: "#e30037" }} />
+                </IconButton>
+              </Box>
               <Rating
                 name="half-rating-read"
                 defaultValue={state?.rating}
@@ -92,73 +130,199 @@ const Tourpackage = () => {
                 gap: 2
               }}>
                 <Grid container spacing={2}>
-                  <Grid item md={12}>
+                  <Grid item md={12} sm={12} xs={12}>
                     <Typography variant="h5">Attractions nearby</Typography>
                   </Grid>
-                  {state?.attractionsNearby?.content?.slice(0, 3)?.map((item, ind) => {
-                    const imageUrl = item?.cardPhoto?.urlTemplate?.split("?")[0]
-                    return (
-                      <Grid key={ind} item md={4}>
-                        <Card sx={{ height: "100%" }}>
-                          <CardMedia
-                            component="img"
-                            src={imageUrl}
-                            alt="alt image"
-                            sx={{
-                              width: "100%",
-                              height: "120px",
-                              objectFit: "cover"
-                            }}
-                          />
-                          <CardContent>
-                            <Typography gutterBottom variant="h6" component="div" sx={{
-                              whiteSpace: "nowrap",
-                              width: "100%",
-                              textOverflow: "ellipsis",
-                              overflow: "hidden",
-                            }}>
-                              {item.title}
-                            </Typography>
-                            <Typography variant={"caption"} sx={{ color: "#c4c4c4" }}>{item.distance}</Typography>
-                          </CardContent>
-                        </Card>
-                      </Grid>
-                    )
-                  })}
-                  <Grid item md={12}>
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Box>
+                      <Swiper
+                        modules={[Pagination]}
+                        pagination={{ dynamicBullets: true }}
+                        style={{ padding: "10px" }}
+                        breakpoints={{
+                          // when window width is >= 320px
+                          320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 480px
+                          480: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 768px
+                          768: {
+                            slidesPerView: 2.5,
+                            spaceBetween: 10
+                          }
+                        }}
+                      >
+                        {state?.attractionsNearby?.content?.map((item, ind) => {
+                          const imageUrl = item?.cardPhoto?.urlTemplate?.split("?")[0]
+                          return (
+                            <SwiperSlide key={ind} style={{ height: "100%" }}>
+                              <Card sx={{ height: "100%" }}>
+                                <CardMedia
+                                  component="img"
+                                  src={imageUrl}
+                                  alt="alt image"
+                                  sx={{
+                                    width: "100%",
+                                    height: "120px",
+                                    objectFit: "cover"
+                                  }}
+                                />
+                                <CardContent>
+                                  <Typography gutterBottom variant="h6" component="div" sx={{
+                                    whiteSpace: "nowrap",
+                                    width: "100%",
+                                    textOverflow: "ellipsis",
+                                    overflow: "hidden",
+                                  }}>
+                                    {item.title}
+                                  </Typography>
+                                  <Typography variant={"caption"} sx={{ color: "#c4c4c4" }}>{item.distance}</Typography>
+                                </CardContent>
+                              </Card>
+                            </SwiperSlide>
+                          )
+                        })}
+                      </Swiper>
+                    </Box>
+                  </Grid>
+                  <Grid item md={12} sm={12} xs={12}>
                     <Typography variant="h5">Restaurants nearby</Typography>
                   </Grid>
-                  {state?.restaurantsNearby?.content?.slice(0, 3)?.map((item, ind) => {
-                    const imageUrl = item?.cardPhoto?.urlTemplate?.split("?")[0]
-                    console.log(item.bubbleRating.rating)
-                    return (
-                      <Grid key={ind} item md={4}>
-                        <Card sx={{ height: "100%" }}>
-                          <CardMedia
-                            component="img"
-                            src={imageUrl}
-                            alt="alt image"
-                            sx={{
-                              width: "100%",
-                              height: "120px",
-                              objectFit: "cover"
-                            }}
-                          />
-                          <CardContent>
-                            <Typography gutterBottom variant="h6" component="div" sx={{
-                              whiteSpace: "nowrap",
-                              width: "100%",
-                              textOverflow: "ellipsis",
-                              overflow: "hidden",
-                            }}>
-                              {item.title}
-                            </Typography>
-                            <Typography variant={"caption"} sx={{ color: "#c4c4c4" }}>{item.distance}</Typography>
-                          </CardContent>
-                        </Card>
-                      </Grid>
-                    )
-                  })}
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Box>
+                      <Swiper
+                        modules={[Pagination]}
+                        pagination={{ dynamicBullets: true }}
+                        style={{ padding: "10px" }}
+                        breakpoints={{
+                          // when window width is >= 320px
+                          320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 480px
+                          480: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 768px
+                          768: {
+                            slidesPerView: 2.5,
+                            spaceBetween: 10
+                          }
+                        }}
+                      >
+                        {state?.restaurantsNearby?.content?.map((item, ind) => {
+                          const imageUrl = item?.cardPhoto?.urlTemplate?.split("?")[0]
+                          return (
+                            <SwiperSlide key={ind}>
+                              <Card sx={{ height: "100%" }}>
+                                <CardMedia
+                                  component="img"
+                                  src={imageUrl}
+                                  alt="alt image"
+                                  sx={{
+                                    width: "100%",
+                                    height: "120px",
+                                    objectFit: "cover"
+                                  }}
+                                />
+                                <CardContent>
+                                  <Typography gutterBottom variant="h6" component="div" sx={{
+                                    whiteSpace: "nowrap",
+                                    width: "100%",
+                                    textOverflow: "ellipsis",
+                                    overflow: "hidden",
+                                  }}>
+                                    {item.title}
+                                  </Typography>
+                                  <Typography variant={"caption"} sx={{ color: "#c4c4c4" }}>{item.distance}</Typography>
+                                </CardContent>
+                              </Card>
+                            </SwiperSlide>
+                          )
+                        })}
+                      </Swiper>
+                    </Box>
+                  </Grid>
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Typography variant="h5">Reviews</Typography>
+                  </Grid>
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Box>
+                      <Swiper
+                        modules={[Pagination]}
+                        pagination={{ dynamicBullets: true }}
+                        style={{ padding: "10px" }}
+                        breakpoints={{
+                          // when window width is >= 320px
+                          320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 480px
+                          480: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                          },
+                          // when window width is >= 768px
+                          768: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 10
+                          }
+                        }}
+                      >
+                        {state?.reviews?.content?.map((item, ind) => (
+                          <SwiperSlide key={ind}>
+                            <Card sx={{ height: "100%" }}>
+                              <CardContent>
+                                <Typography gutterBottom variant="h6" component="div" sx={{
+                                  whiteSpace: "nowrap",
+                                  width: "100%",
+                                  textOverflow: "ellipsis",
+                                  overflow: "hidden",
+                                }}>
+                                  {item.title}
+                                </Typography>
+                                <Typography variant={"caption"} sx={{ color: "#c4c4c4" }}>{item.text}</Typography>
+                              </CardContent>
+                            </Card>
+                          </SwiperSlide>
+                        ))}
+                      </Swiper>
+                    </Box>
+                  </Grid>
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Typography variant="h5">FAQs</Typography>
+                  </Grid>
+                  <Grid item md={12} sm={12} xs={12}>
+                    <Box>
+                      {state?.qA?.content?.map((item, ind) => (
+                        <Accordion
+                          key={ind}
+                          disableGutters={true}
+                          defaultExpanded={true}
+                        >
+                          <AccordionSummary
+                            expandIcon={<ExpandMore />}
+                            aria-controls={ind}
+                            id={ind}
+                            sx={{ fontWeight: 600 }}
+                          >
+                            {item?.title}
+                          </AccordionSummary>
+                          <AccordionDetails>
+                            {item?.topAnswer?.text}
+                          </AccordionDetails>
+                        </Accordion>
+                      ))}
+                    </Box>
+                  </Grid>
                 </Grid>
               </Box>
             </div>
@@ -186,7 +350,7 @@ const Tourpackage = () => {
             </div>
           </Grid>
         </Grid>
-      </Container>
+      </Container >
       <Footer />
     </>
   );

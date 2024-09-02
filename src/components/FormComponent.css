@@ -68,12 +68,6 @@
   /* Adjust the spacing between input boxes */
 }
 
-.form-container .MuiGrid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 @media (max-width: 900px) {
   .form-container .MuiFormControl-root {
     margin-right: 0;
@@ -84,10 +78,6 @@
 @media (max-width: 600px) {
   .form-container {
     padding: 10px;
-  }
-
-  .form-container .MuiGrid-item {
-    align-items: center;
   }
 
   .submit-button {

@@ -58,13 +58,6 @@
   /* Hide overlay initially */
 }
 
-.swiper-pagination {
-  display: none;
-  /* Or */
-  opacity: 0;
-  /* Hide using opacity */
-}
-
 .slide:hover .slide-overlay {
   opacity: 1;
   /* Show overlay on hover */

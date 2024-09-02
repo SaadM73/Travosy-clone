@@ -2,7 +2,6 @@
   background: #161C28;
   color: #ddd;
   padding: 50px 11%;
-  font-family: Arial, sans-serif;
 }
 
 .footer-content {
@@ -18,7 +17,8 @@
   min-width: 250px;
 }
 
-.footer-section h1, .footer-section h2 {
+.footer-section h1,
+.footer-section h2 {
   color: #fff;
 }
 
@@ -48,7 +48,8 @@
   color: #ff6f61;
 }
 
-.footer-section.office p, .footer-section.office a {
+.footer-section.office p,
+.footer-section.office a {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -56,7 +57,8 @@
   color: #bcbcbc;
 }
 
-.footer-section.office p svg, .footer-section.office a svg {
+.footer-section.office p svg,
+.footer-section.office a svg {
   margin-right: 10px;
 }
 
@@ -123,7 +125,7 @@
   text-decoration: underline;
 }
 
-.FooterLogo{
-margin-top: 20px;
+.FooterLogo {
+  margin-top: 20px;
 
 }

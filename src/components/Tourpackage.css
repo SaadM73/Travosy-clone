@@ -250,3 +250,8 @@
 .swiper-scrollbar .swiper-scrollbar-drag {
   background: #e30037;
 }
+
+.swiper-pagination {
+  position: relative !important;
+  bottom: -8px !important;
+}

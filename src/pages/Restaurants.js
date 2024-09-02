@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import HeroSection from '../components/HeroSection';
 import { Box, Button, Card, CardContent, CardMedia, Container, Grid } from '@mui/material';
 import PublicServices from '../api/public/PublicServices';
 import dummyImage from "../components/images/dummyFood.jpeg";
@@ -51,13 +50,13 @@ function Restaurants() {
         <Grid container spacing={2} mt={6}>
           {restaurants.map((tour, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card className="tour-card" onClick={() => navigate("/tourpackage", { state: tour })}>
+              <Card className="tour-card" onClick={() => navigate("/tourpackage-details", { state: tour })}>
                 <div className="image-container">
                   <CardMedia
                     component="img"
                     alt={tour.title}
                     height="200"
-                    image={tour.image == null ? dummyImage : tour.image}
+                    image={tour.image == "https://developers.elementor.com/path/to/placeholder.png" ? dummyImage : tour.image}
                     className="tour-image"
                   />
                   <div className="favorite-icon">
